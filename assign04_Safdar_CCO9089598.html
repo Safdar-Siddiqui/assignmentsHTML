@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign04_Safdar_CCO9089598</title>
+    <style>
+		body{margin: 0px;
+		padding: 0px;}
+	  ul{
+		list-style-type: none;
+		margin:0px;
+		padding:0px 0px;
+		overflow: hidden;
+		background-color: #000;
+		width: auto;
+		height: auto;
+		display:flex;
+		justify-content:space-evenly;
+		font-family: sans-serif;
+		position: relative;
+	  }
+	  li{ 
+		float:left;
+		width: 150px;
+	  }
+	  li a{
+		display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 20px 15px;
+	  text-decoration: none;
+		width: auto;
+		text-align:center;
+		font-weight:bold;
+	  }
+	  
+	  .active {
+	  background-color: #04AA6D;
+	}
+	  
+	  </style>
+</head>
+<body>
+
+    <ul>
+		<li> <a href="./assign01_Safdar_CCO9089598.html" > Assignment 01 </a> </li>
+		<li> <a href="./assign02_Safdar_CCO9089598.html" > Assignment 02 </a></li>
+		<li> <a href="./assign03_Safdar_CCO9089598.html" > Assignment 03 </a></li>
+		<li> <a href="#" class="active"> Assignment 04 </a> </li>
+		<li> <a href="./assign05_Safdar_CCO9089598.html"> Assignment 05 </a></li>
+		<li> <a href="./assign06_Safdar_CCO9089598.html"> Assignment 06 </a></li>
+		<li> <a href="./assign07_Safdar_CCO9089598.html"> Assignment 07 </a></li>
+		<li> <a href="./assign08_Safdar_CCO9089598.html"> Assignment 08 </a></li>
+		<li> <a href="./assign09_Safdar_CCO9089598.html"> Assignment 09 </a></li>
+	  </ul>
+
+
+    <h2>Nested Table</h2>
+    <table border="1px">
+        <tr>
+            <th> Header Column 1 </th>
+            <th> Header Column 2 </th>
+            <th> Header Column 3 </th>
+            <th> Header Column 4 </th>
+        </tr>
+        <tr>
+            <td> Row 2 - Item 1 </td>
+            <td> Row 2 - Item 2 </td>
+            <td rowspan="2"> <b> Row 2 - Nested Table 1 </b> <br> <br>
+                <table border="1px">
+                    <tr>
+                        <td> Row 1 Header </td>
+                        <td> Item </td>
+                    </tr>
+                    <tr>
+                        <td> Row 2 Header </td>
+                        <td> Item </td>
+                    </tr>
+                    <tr><td> Row 3 Header</td>
+                        <td> Item </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td>Row 2 - Item 4 <br/> A Second Line</td>
+        </tr>
+        <tr>
+            <td><b>Row 3: Nested Table 2 </b> <br> <br>
+            <table border="1px">
+                <tr>
+                    <td> Row 1 Header </td>
+                    <td> Item </td>
+                </tr>
+                <tr>
+                    <td> Row 2 Header </td>
+                    <td> Item </td>
+                </tr>
+            </table>
+            </td>
+            <td> Row 3 - Item 2 </td>
+            <td rowspan="2"> Row 3 - Item 3 </td>
+        </tr>
+        <tr>
+            <td> Row 4 - Item 1 </td>
+            <td> Row 4 - Item 2 </td>
+            <td> Row 4 - Item 3 </td>
+        </tr>
+        <tr>
+            <td colspan="4"> Row 5 - Last Row of Outer Table </td>
+        </tr>
+    </table>
+
+    <hr> <hr>
+
+    <table border="1px" style="text-align:center">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Monday</th>
+            <td rowspan="2">8:00 AM</td>
+            <td  rowspan="2"> 5:00 PM</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <th rowspan="6">Tuesday</th>
+            <td rowspan="2">8:00 AM</td>
+            <td rowspan="2">11:00 AM</td>
+            <td rowspan="3" style="padding: 6px 0px">XPath </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2">11:00 AM</td>
+            <td rowspan="2">2:00 PM</td>
+        </tr>
+        <tr>
+            <td rowspan="3">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2:00 PM</td>
+            <td rowspan="2">5:00 PM</td> 
+            </tr>
+        <tr></tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>8:00 AM</td>
+            <td>12:00 PM</td>
+            <td>XSL Formating Objects</td>
+        </tr>
+    </table>
+<hr><hr>
+
+
+<table border="5px">
+    <tr>
+        <th colspan="6">Athletics Day Timetable </th>
+    </tr>
+    <tr>
+        <th> Area</th>
+        <th>10am-11am</th>
+        <th>11am-12pm</th>
+        <th>12pm-1pm</th>
+        <th>1pm-2pm</th>
+        <th>2pm-3pm</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Track</th>
+        <td>400m</td>
+        <td>200m</td>
+        <th rowspan="3">Lunch</th>
+        <td>800m</td>
+        <td>100m</td>
+    </tr>
+    <tr>
+        <td>Hurdles</td>
+        <td>1500m</td>
+        <td>Free</td>
+        <td>80m</td>
+    </tr>
+    <tr>
+        <th>Field</th>
+        <td>Discus</td>
+        <td>Javelin</td>
+        <td>Shot put</td>
+        <td>Hammer throw</td>
+    </tr>
+</table>
+
+<hr><hr>
+
+<div style="background-color: lightgreen; max-width: 465px; padding: 0px 15px 15px 15px;">
+<p style="font-size: 25px; margin-bottom: 1px; text-align: center; font-weight: bolder ;" >Marksheet</p>
+<table border="2px">
+    <tr>
+        <th rowspan="4"> S. No.</th>
+        <th rowspan="4"> Name </th>
+        <th colspan="6"> Subject</th>
+        <th rowspan="4">Total</th>
+    </tr>
+    <tr>
+        <th colspan="2">Science</th>
+        <th colspan="2">Social</th>
+        <th colspan="2">Computer</th>
+    </tr>
+    <tr>
+        <th>Internal</th>
+        <th>Final</th>
+        <th>Internal</th>
+        <th>Final</th>
+        <th>Internal</th>
+        <th>Final</th>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>1.</td>
+        <td> Abdullah</td>
+        <td>20</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+        <td>70</td>
+        <td>250</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td> Basit</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+        <td>210</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td> Danish</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+        <td>70</td>
+        <td>80</td>
+        <td>330</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td> Fahad </td>
+        <td>40</td>
+        <td>50</td>
+        <td>50</td>
+        <td>60</td>
+        <td>60</td>
+        <td>80</td>
+        <td>340</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td> Hamid </td>
+        <td>40</td>
+        <td>50</td>
+        <td>80</td>
+        <td>60</td>
+        <td>60</td>
+        <td>80</td>
+        <td>370</td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>
